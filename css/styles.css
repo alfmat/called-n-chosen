@@ -10922,6 +10922,10 @@ p {
   color: #ffc800;
 }
 
+.card-text {
+  text-align: left;
+}
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 1.5rem;
