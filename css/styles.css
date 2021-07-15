@@ -50,8 +50,8 @@
 }
 
 .carousel-custom-img {
-  height: 600px;
-  width: 600px;
+  max-width: fit-content;
+  max-height: fit-content;
 }
 
 body {
