@@ -49,6 +49,11 @@
   }
 }
 
+.about-img {
+  height: 200px;
+  width: 200px;
+}
+
 .carousel-custom-img {
   max-width: fit-content;
   max-height: fit-content;
