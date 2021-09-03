@@ -1,13 +1,639 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <title>CalledNChosen</title>
-  <base href="/">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
-<body>
-  <app-root></app-root>
-</body>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,minimum-scale=1.0,maximum-scale=1.0"/>
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <meta name="google-site-verification" content="_ZCj0OQlep6aaYBNc_CkgQcd9t1UtgEuTS7suoTe40k" />
+        <title>Called and Chosen</title>
+        <!-- Favicon-->
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <!-- <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script> -->
+        <script src="./assets/js/all.js"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="./assets/css/styles.css" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand" href="#page-top"><h3>Called and Chosen</h1></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ms-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link" href="./pages/articles.html"> <mark>Articles</mark></a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/about.html">About Us</a></li>
+                        <!-- <li class="nav-item"><a class="nav-link" href="#about">About</a></li> -->
+                        <li class="nav-item"><a class="nav-link" href="./pages/profiles.html">Profiles</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/resources.html">Resources</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./pages/contact.html">Contact</a></li>
+                        <li><button type="button" class="btn btn-info">Donate</button></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Masthead-->
+        <header class="masthead">
+            <div class="container">
+                <div class="masthead-subheading">A Catholic Ministry For</div>
+                <div class="masthead-heading text-uppercase">Evangelization</div>
+                <a class="btn btn-primary btn-xl text-uppercase" href="#portfolio">Tell Me More</a>
+            </div>
+        </header>
+        
+        <!-- Portfolio Grid-->
+        <section class="page-section bg-light" id="portfolio">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">About Us</h2>
+                    <h3 class="section-subheading text-muted">
+                        Called and Chosen is a Catholic Evangelization Ministry. The Diocese of Raleigh’s Office of Evangelization and Discipleship provides us with formation, support and promotion. We strive to promulgate awareness of Catholic teachings and precepts, strengthen faith, impart Christian values and charity, through evangelization workshops, retreats, fellowship, prayer and reflection of Scriptures.
+                    </h3>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 2-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="port-img img-fluid" src="assets/img/portfolio/called-n-chosen-logo.jfif" alt="..." />
+                            </a>
+                            <a class="index-a" data-bs-toggle="modal" href="#portfolioModal2">
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">Mission Statement</div>
+                                    <div class="portfolio-caption-subheading text-muted">Guiding Values</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 1-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="./pages/resources.html">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="port-img img-fluid" src="assets/img/rosary-cropped.jfif" alt="..." />
+                            </a>
+                            <a class="index-a" href="./pages/resources.html">
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">What We Offer</div>
+                                    <div class="portfolio-caption-subheading text-muted">Brief Intro</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-lg-4 col-sm-6 mb-4">
+                        <!-- Portfolio item 3-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="port-img img-fluid" src="assets/img/portfolio/hands.jpg" alt="..." />
+                            </a>
+                            <a class="index-a" data-bs-toggle="modal" href="#portfolioModal3">
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">How We Can Help</div>
+                                    <div class="portfolio-caption-subheading text-muted">Our Commitments</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+                        <!-- Portfolio item 4-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="port-img img-fluid" src="assets/img/portfolio/prayer-cropped.jpg" alt="..." />
+                            </a>
+                            <a class="index-a" data-bs-toggle="modal" href="#portfolioModal4">
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">Upcoming Events & Topics</div>
+                                    <div class="portfolio-caption-subheading text-muted">Note it down!</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+                        <!-- Portfolio item 5-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" target="_blank" href="https://www.youtube.com/channel/UCKx0EthTkugIWAh1OR29S-w">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="port-img img-fluid" src="assets/img/portfolio/camera.jpg" alt="..." />
+                            </a>
+                            <a class="index-a" target="_blank" href="https://www.youtube.com/channel/UCKx0EthTkugIWAh1OR29S-w">
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">Videos & Content</div>
+                                    <div class="portfolio-caption-subheading text-muted">Informative Materials</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-sm-6">
+                        <!-- Portfolio item 6-->
+                        <div class="portfolio-item">
+                            <a class="portfolio-link" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-hover">
+                                    <div class="portfolio-hover-content"><i class="fas fa-plus fa-3x"></i></div>
+                                </div>
+                                <img class="port-img img-fluid" src="assets/img/portfolio/trending.jpg" alt="..." />
+                            </a>
+                            <a class="index-a" data-bs-toggle="modal" href="#portfolioModal6">
+                                <div class="portfolio-caption">
+                                    <div class="portfolio-caption-heading">Trending</div>
+                                    <div class="portfolio-caption-subheading text-muted">Latest News in Evangelization - Coming Soon!</div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Posts -->
+        <section class="page-section bg-light" id="posts">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        <div id="carouselExampleCaptions" class="carousel slide" >
+                            <div class="carousel-indicators">
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active embed-container">
+                                    <iframe src="https://www.youtube.com/embed/UuT0sJ7BT8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="carousel-item embed-container">
+                                    <iframe src="https://www.youtube.com/embed/DuGJZmgPOZU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="carousel-item embed-container">
+                                    <iframe src="https://www.youtube.com/embed/n7Y2MBSN2e0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                                <div class="carousel-item embed-container">
+                                    <iframe src="https://www.youtube.com/embed/l3Rn2Ohp-p4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm">
+                        <h1>Youtube Channel & Articles</h1>
+                        <p>Check out the latest videos from our YouTube Channel. Also, be sure to subscribe and hit the bell icon to receive alerts on our latest videos. </p>
+                        <p>Our speakers consist of experienced Catholic Evangelists.</p>
+                        <a target="_blank" href="https://www.youtube.com/channel/UCKx0EthTkugIWAh1OR29S-w"><button type="button" class="btn btn-warning">Go To YouTube</button></a>
+                        <p style="padding-top: 1rem;">You can also check out our latest articles which we upload biweekly.</p>
+                        <a href="./pages/articles.html"><button type="button" class="btn btn-warning">Go To Articles</button></a>
+                    </div>
+                </div>
+            </div> 
+        </section>
+
+        <!-- Clients-->
+        <div class="py-5">
+            <div class="container">
+                <h2 style="text-align: center;">With Support From:</h2>
+                <div class="row align-items-center justify-content-md-center">
+                    <!-- <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/microsoft.svg" alt="..." /></a>
+                    </div> -->
+                    <div class="col-md-3 col-sm-6 my-3">
+                        <a href="https://dioceseofraleigh.org/faith-formation/evangelization"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/Diocese-of-Raleigh-transparent-logo.png" alt="..." /></a>
+                    </div>
+                    <!-- <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/STMRebrandFinal-02 copy.jpg" alt="..." /></a>
+                    </div> -->
+                    <!-- <div class="col-md-3 col-sm-6 my-3">
+                        <a href="#!"><img class="img-fluid img-brand d-block mx-auto" src="assets/img/logos/ibm.svg" alt="..." /></a>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+        <!-- Contact-->
+        <section class="page-section" id="contact">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="section-heading text-uppercase">Contact Us</h2>
+                    <p class="section-subheading text-muted">1710 East Franklin Street #1060 Chapel Hill, NC 27514</p>
+                    <p class="section-subheading text" style="color: white;">Email: contact@callednchosen.org</p>
+                    <p class="section-subheading text" style="color: white;">Phone: 984-377-3337</p>
+                </div>
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- * * SB Forms Contact Form * *-->
+                <!-- * * * * * * * * * * * * * * *-->
+                <!-- This form is pre-integrated with SB Forms.-->
+                <!-- To make this form functional, sign up at-->
+                <!-- https://startbootstrap.com/solution/contact-forms-->
+                <!-- to get an API token!-->
+                <form id="contactForm" method="POST" action="https://cnc-app-server.herokuapp.com/">
+                    <div class="row align-items-stretch mb-5">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <!-- Name input-->
+                                <input class="form-control" name="name" id="name" type="text" placeholder="Your Name *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="name:required">A name is required.</div>
+                            </div>
+                            <div class="form-group">
+                                <!-- Email address input-->
+                                <input class="form-control" name="email" id="email" type="email" placeholder="Your Email *" data-sb-validations="required,email" />
+                                <div class="invalid-feedback" data-sb-feedback="email:required">An email is required.</div>
+                                <div class="invalid-feedback" data-sb-feedback="email:email">Email is not valid.</div>
+                            </div>
+                            <div class="form-group mb-md-0">
+                                <!-- Phone number input-->
+                                <input class="form-control" name="phone" id="phone" type="tel" placeholder="Your Phone *" data-sb-validations="required" />
+                                <div class="invalid-feedback" data-sb-feedback="phone:required">A phone number is required.</div>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group form-group-textarea mb-md-0">
+                                <!-- Message input-->
+                                <textarea class="form-control" name="message" id="message" placeholder="Your Message *" data-sb-validations="required"></textarea>
+                                <div class="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Submit success message-->
+                    <!---->
+                    <!-- This is what your users will see when the form-->
+                    <!-- has successfully submitted-->
+                    <div class="d-none" id="submitSuccessMessage">
+                        <div class="text-center text-white mb-3">
+                            <div class="fw-bolder">Form submission successful!</div>
+                            To activate this form, sign up at
+                            <br />
+                            <a href="https://startbootstrap.com/solution/contact-forms">https://startbootstrap.com/solution/contact-forms</a>
+                        </div>
+                    </div>
+                    <!-- Submit error message-->
+                    <!---->
+                    <!-- This is what your users will see when there is-->
+                    <!-- an error submitting the form-->
+                    <div class="d-none" id="submitErrorMessage"><div class="text-center text-danger mb-3">Error sending message!</div></div>
+                    <!-- Submit Button-->
+                    <div class="text-center"><button class="btn btn-primary btn-xl text-uppercase" id="submitButton" type="submit">Send Message</button></div>
+                </form>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="footer py-4">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-4 text-lg-start">Copyright &copy; Called and Chosen 2021 - All Rights Reserved</div>
+                    <div class="col-lg-4 my-3 my-lg-0">
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-twitter"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-dark btn-social mx-2" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <div class="col-lg-4 text-lg-end">
+                        <a class="link-dark text-decoration-none me-3" href="#!">Privacy Policy</a>
+                        <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Portfolio Modals-->
+        <!-- Portfolio item 1 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body text-start">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Who We Are?</h2>
+                                    <p class="item-intro text-muted">Brief Intro.</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/called-n-chosen-logo.jfif" alt="..." />
+                                    <!-- <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Threads
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Illustration
+                                        </li>
+                                    </ul> -->
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 2 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body text-start">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Mission Statement</h2>
+                                    <p class="item-intro text-muted">Guiding Values</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/another-rosary.jfif" alt="..." />
+                                    <p>Our Mission is to help the common person regardless of your religion, race, ethnic background or spirituality find renewed hope and meaning in life through the teachings of Christ.</p>
+                                    <!-- <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Explore
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Graphic Design
+                                        </li>
+                                    </ul> -->
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 3 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body text-start">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">How We Can Help</h2>
+                                    <p class="item-intro text-muted">Our Commitment to You</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/hands.jpg" alt="..." />
+                                    <p>We offer monthly workshops that offer direction and sense of purpose to people seeking hope amidst life's myriad challenges. Amongst others, we attempt to answer key questions around:</p> 
+                                    <ul class="list text-start">
+                                        <li>
+                                            How can I grapple with situations around me? Am I alone in my struggles?
+                                        </li>
+                                        <li>
+                                            Is there hope in life? 
+                                        </li>
+                                        <li>
+                                            How can I fathom the creation around me? Is it happenstance or intelligent design?
+                                        </li>
+                                        <li>
+                                            Is there a creator who really loves me?
+                                        </li>
+                                        <li>
+                                            If I'm loved by my creator, why all this suffering in life?
+                                        </li>
+                                        <li>
+                                            How can I relate this to my life and my current situation?
+                                        </li>
+                                        <li>
+                                            What is life's purpose? Is there such a thing called salvation? What lies beyond life?
+                                        </li>
+                                        <li>
+                                            Can I find hope, peace and joy in this life? How and where can I explore answers to the above? 
+                                        </li>
+                                    </ul>
+                                    <a href="./pages/resources.html"><button class="btn btn-warning">Checkout our Resources</button></a>
+                                    <!-- <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close
+                                    </button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 4 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body text-start">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Upcoming Events & Topics</h2>
+                                    <p class="item-intro text-muted">Add Them to Your Calendar!</p>
+                                    <img src="../assets/img/about/Called-And-Chosen_Workshop_Flyer_Sep01-2021 (1).png" style="border-radius: 8px; width: 90%; height: 90%;" alt="">
+                                    <p class="">
+                                        <strong> Our Workshop Structure consists of a half-day Program (Third Saturday/Sunday of every month) </strong> eligible for anyone over the age of 20. For Nones, Atheists, Agnostics, Fallen-away Christians / Catholics and People of Other Faiths:
+                                        <ul>
+                                            <li>
+                                                Why God (Common themes – e.g. beauty, intelligent design /creation) 
+                                            </li>
+                                            <li>
+                                                Is there a creator (Father) behind this intelligent design?
+                                            </li>
+                                            <li>
+                                                The concept of the creator – a Trinitarian God?
+                                            </li>
+                                            <li>
+                                                Christ amongst other Gods (Apologetics)
+                                            </li>
+                                            <li>
+                                                Why Christ and Christianity (our path to salvation thru Christ) 
+                                            </li>
+                                            <li>
+                                                Why be Catholic? – (Jesus, Sacraments, Apostolic tradition, the Church)
+                                            </li>
+                                            <li>
+                                                Why is it important to be saved? –Daily saving grace -the Sacraments
+                                            </li>
+                                            <li>
+                                                Holy Spirit – As our helper, our counselor, leading us to Christ
+                                            </li>
+                                            <li>
+                                                Immediate Next Steps: The Encounter in Holy Mass; Fellowship
+                                            </li>
+                                            <li>
+                                                Learn about signing up for the RCIA at a local Church
+                                            </li>
+                                            <li>
+                                                Additional Avenues: Renewal Retreat, Prayer Meetings, Praise (Music) & Fellowship gatherings etc.
+                                            </li>
+                                        </ul>
+
+                                        <strong>Sign up for a Called and Chosen workshop near you. Contact us by pressing the button below.</strong> 
+                                    </p>
+                                    <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSeizQHpJlHUw4FvIvDVNXkqlG-eCrgqmk9DU1893PG4R5x8yw/viewform?usp=sf_link"><button class="btn btn-success">Register for Our Upcoming Monthly Workshops</button></a>
+                                    
+                                    <!-- <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Lines
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Branding
+                                        </li>
+                                    </ul> -->
+                                    <!-- <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close
+                                    </button> -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 5 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body text-start">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Videos & Content</h2>
+                                    <p class="item-intro text-muted">Informative Materials</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/camera.jpg" alt="..." />
+                                    <p>Checkout our <a target="_blank" href="https://www.youtube.com/channel/UCZ1vs44m2-W1szXJJykmFXA">Youtube Channel</a> for more informative content.</p>
+                                    <!-- <ul class="list-inline">
+                                        <li>
+                                            <strong>Client:</strong>
+                                            Southwest
+                                        </li>
+                                        <li>
+                                            <strong>Category:</strong>
+                                            Website Design
+                                        </li>
+                                    </ul> -->
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Portfolio item 6 modal popup-->
+        <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="close-modal" data-bs-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+                    <div class="container">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-8">
+                                <div class="modal-body text-start">
+                                    <!-- Project details-->
+                                    <h2 class="text-uppercase">Trending</h2>
+                                    <p class="item-intro text-muted">Latest News in Evangelization</p>
+                                    <img class="img-fluid d-block mx-auto" src="assets/img/portfolio/trending.jpg" alt="..." />
+                                    <!-- <div class="row">
+                                        <div class="col">
+                                            <div class="card" style="width: 18rem;">
+                                                <img class="card-img-top" src="./assets/img/articles/usccb-logo-color.svg" alt="Card image cap">
+                                                <div class="card-body">
+                                                  <h5 class="card-title">USCCB</h5>
+                                                  <p class="card-text">Missionary Disciples Content</p>
+                                                  <a target="_blank" href="https://www.usccb.org/beliefs-and-teachings/how-we-teach/catechesis/catechetical-sunday/living-disciples/missionary-disciples" class="btn btn-primary">Take Me There</a>
+                                                </div>
+                                              </div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="card" style="width: 18rem;">
+                                                <img class="card-img-top" src="./assets/img/articles/disciples_called.PNG" alt="Card image cap">
+                                                <div class="card-body">
+                                                  <h5 class="card-title">USCCB</h5>
+                                                  <p class="card-text">Missionary Disciples Content</p>
+                                                  <a target="_blank" href="http://www.catholicapostolatecenter.org/uploads/9/2/4/6/9246931/disciples-called-to-witness-5-30-12.pdf" class="btn btn-primary">Take Me There</a>
+                                                </div>
+                                              </div>
+                                        </div>
+                                    </div> -->
+                                    
+                                    <ul class="list-inline">
+                                        <li>
+                                            SCC Evangelization Conference - <a href="https://go.virtualcatholicconference.com/SECC21Countdown">https://go.virtualcatholicconference.com/SECC21Countdown</a>
+                                        </li>
+                                        <li>
+                                            Disciples Called to Witness - <a href=" http://www.catholicapostolatecenter.org/uploads/9/2/4/6/9246931/disciples-called-to-witness-5-30-12.pdf">
+                                            http://www.catholicapostolatecenter.org/uploads/9/2/4/6/9246931/disciples-called-to-witness-5-30-12.pdf</a>
+                                        </li>
+                                        <li>
+                                            Practical Catholic Evangelization - 
+                                            <a target="_blank" href="https://practicalevangelization.wordpress.com/2017/06/14/resource-review-living-as-missionary-disciples/">https://practicalevangelization.wordpress.com/2017/06/14/resource-review-living-as-missionary-disciples/</a>
+
+                                        </li>
+                                        <li>
+                                            Catherine of Sienna Institute - 
+                                            <a target="_blank" href="https://www.siena.org/fid-formation-days">https://www.siena.org/fid-formation-days</a>
+                                        </li>
+                                        <li>
+                                             Catholic Evangelization: Do's and Dont's -  
+                                            <a target="_blank" href="https://catholic-link.org/the-dos-and-donts-of-evangelization/">https://catholic-link.org/the-dos-and-donts-of-evangelization/</a>
+                                        </li>
+                                        <li>
+                                            Magnificat Press -
+                                            <a target="_blank" href="http://www.magnificatpress.com/">http://www.magnificatpress.com/</a>
+                                        </li>
+                                        <li>
+                                            Society of St. Vincent De Paul - 
+                                            <a target="_blank" href="https://ssvpusa.org/">https://ssvpusa.org/</a>
+                                            
+                                        </li>
+                                        <li>
+                                            FOCUS - 
+                                            <a target="_blank" href="https://www.focus.org/">https://www.focus.org/</a>
+                                            
+                                        </li>
+                                    </ul>
+                                
+                                    <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
+                                        <i class="fas fa-times me-1"></i>
+                                        Close
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="./assets/js/scripts.js"></script>
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <!-- * *                               SB Forms JS                               * *-->
+        <!-- * * Activate your form at https://startbootstrap.com/solution/contact-forms * *-->
+        <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
+        <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    </body>
 </html>
