@@ -1,0 +1,18 @@
+<div style="padding-bottom: 2rem;" class="row">
+<div class="card text-center">
+	<div class="card-header">
+	    Featured
+	</div>
+	<div class="card-body">
+	    <h4 class="card-title">{{article.title}}</h4>
+	    <h6><mark>- {{article.author}}</mark></h6>
+	    <p class="card-text">
+	      {{article.text[0].substr(0,600) + "..."}}	    
+            </p>
+	    <a href="./articles/catholic_call_to_evangelize.html" class="btn btn-primary">Read Full Article</a>
+	</div>
+	<div class="card-footer text-muted">
+	    {{article.date}}
+	</div>
+</div>
+</div>
