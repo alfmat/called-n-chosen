@@ -1,0 +1,5 @@
+<div style="padding-top: 7rem;" class="container">
+  <h1>{{articles[user].title}}</h1>
+    <h5><mark>- {{articles[user].author}}</mark></h5>
+    <p *ngFor="let para of articles[user].text">{{para}}</p>
+</div>

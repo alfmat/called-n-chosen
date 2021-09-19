@@ -16,12 +16,65 @@ import { IndivProfileComponent } from './pages/profiles/indiv-profile/indiv-prof
 import { ProfilePageComponent } from './pages/profiles/profile-page/profile-page.component';
 import { AllProfilesComponent } from './pages/profiles/all-profiles/all-profiles.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
+import { PROFILES } from './pages/profiles/profile-db';
+import { Profile } from './pages/profiles/Profile';
+import { ARTICLES } from './pages/articles/article-text';
+import { Article } from './pages/articles/Article';
+import { AllArticlesComponent } from './pages/articles/all-articles/all-articles.component';
+import { IndivArticleComponent } from './pages/articles/indiv-article/indiv-article.component';
+
+const profiles: Profile[] = PROFILES;
+const articles: Article[] = ARTICLES;
 
 const routes: Routes = [
   {path: '', pathMatch: 'full', redirectTo: '/home'},
   {path: 'home', component: HomeComponent },
   {path: 'about', component: AboutComponent },
-  {path: 'articles', component: ArticlesComponent },
+  {
+    path: 'articles',
+    component: ArticlesComponent,
+    children: [
+      {
+        path: '',
+        redirectTo: 'all',
+        pathMatch: 'full'
+      },
+      {
+        path: 'all',
+        component: AllArticlesComponent
+      },
+      {
+        path: articles[0].route,
+        component: IndivArticleComponent,
+        data:{id: 0}
+      },
+      {
+        path: articles[1].route,
+        component: IndivArticleComponent,
+        data:{id: 1}
+      },
+      {
+        path: articles[2].route,
+        component: IndivArticleComponent,
+        data:{id: 2}
+      },
+      {
+        path: articles[3].route,
+        component: IndivArticleComponent,
+        data:{id: 3}
+      },
+      {
+        path: articles[4].route,
+        component: IndivArticleComponent,
+        data:{id: 4}
+      },
+      {
+        path: articles[5].route,
+        component: IndivArticleComponent,
+        data:{id: 5}
+      }
+    ]
+  },
   {path: 'resources', component: ResourcesComponent },
   {path: 'contact', component: ContactComponent },
   {
@@ -38,42 +91,42 @@ const routes: Routes = [
         component: AllProfilesComponent
       },
       {
-        path: 'matt-sebastian',
+        path: profiles[0].user,
         component: ProfilePageComponent,
         data:{id: 0}
       },
       {
-        path: 'joe-zannini',
+        path: profiles[1].user,
         component: ProfilePageComponent,
         data:{id: 1}
       },
       {
-        path: 'bryon-herbel',
+        path: profiles[2].user,
         component: ProfilePageComponent,
         data:{id: 2}
       },
       {
-        path: 'terrie-baldwin',
+        path: profiles[3].user,
         component: ProfilePageComponent,
         data:{id: 3}
       },
       {
-        path: 'fr-martin',
+        path: profiles[4].user,
         component: ProfilePageComponent,
         data:{id: 4}
       },
       {
-        path: 'alfred-mathew',
+        path: profiles[5].user,
         component: ProfilePageComponent,
         data:{id: 5}
       },
       {
-        path: 'pam-mccausland',
+        path: profiles[6].user,
         component: ProfilePageComponent,
         data:{id: 6}
       },
       {
-        path: 'beth-lutz',
+        path: profiles[7].user,
         component: ProfilePageComponent,
         data:{id: 7}
       }
@@ -98,6 +151,8 @@ const routes: Routes = [
     ProfilePageComponent,
     AllProfilesComponent,
     NotFoundComponent,
+    AllArticlesComponent,
+    IndivArticleComponent,
   ],
   imports: [
     BrowserModule,

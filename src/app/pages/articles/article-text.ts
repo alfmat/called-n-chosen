@@ -2,6 +2,7 @@ export let ARTICLES = [
   {
     id: 1,
     title: "A Catholic's Call to Evangelize",
+    route: "catholic-call-to-evangelize",
     author: "Matt Sebastian",
     date: "07/11/2021",
     text: ["There is a dire need to evangelize in a world that is steadily going down in sin and losing its moral values. The call to evangelize is the overarching mission of the Church and is as much a call to the Religious Clergy as it is to the laity. However, the average Catholic is faced with the dilemma of being mistaken for proselytizing when attempting to evangelize and tends to hold back. Whereas in reality there are several ways to evangelize without proselytizing. For example Having a loving attitude to a neighbor impresses them and leaves them wondering what is the reason for our love and hope. (Cf 1 Corinthians 13:4-5 “Love is patient and kind; love is not jealous or boastful; it is not arrogant or rude”). But in a gentle way, our Lord directs us to give an answer to anyone asking us to explain the reason for our hope (cf 1 Peter 3:15 “Always be ready to make your defense to anyone who demands from you an accounting for the hope that is in you;”).",
@@ -10,6 +11,7 @@ export let ARTICLES = [
   {
     id: 2,
     title: "Does Suffering have a deeper meaning in my life?",
+    route: "suffering-deeper-meaning",
     author: "Matt Sebastian",
     date: "07/11/2021",
     text: ["The fact that God gave us His only begotten Son, who though fully Divine, yet came down as fully human, to experience humanity’s frailty while remaining sinless, was in itself a supreme act of humility and sacrifice. This element of Christ’s sacrifice continued all through His life, in His suffering, and Death on the Cross when He took on all of humankind’s sin and offered it for the redemption of mankind. In his death as paschal sacrifice, he overcame death by resurrection and ascension into Heaven, thereby laying the cornerstone for humanity’s salvation into eternal life or the Kerygma (Greek) as defined by St. Paul. We as Christians are called to embrace this Paschal Christology knowing that in our suffering we unite ourselves to Christ’s suffering on the Cross, so we find redemptive meaning in the suffering, ultimately intensifying our quest for God and leading us to salvation. My suffering can also be redemptive for others – and when I suffer my will can be joined to Christ’s will – and completes Jesus’ suffering on the Cross, just as the Church (His mystical body) completes the redemptive work of Christ (cf. Colossians 1:24). Likewise, all men and women, regardless of whether they are Christian or non-Christian, unite their struggles and suffering with Christ’s suffering, and without them necessarily knowing, Christ silently suffers with them. A Christian says ‘We don’t suffer alone. God suffers with us.’ Christ meets everyone in the darkest moments of life, regardless of where they are in their spiritual journey, whether they have professed their faith in Him, or whether they are non-Christian. He turns all suffering for the good of all those who are called according to His purpose (cf. Romans 8:28).",
@@ -19,6 +21,7 @@ export let ARTICLES = [
   {
     id: 3,
     title: "How does The Church address the need of our times?",
+    route: "church-need-of-our-times",
     author: "Matt Sebastian",
     date: "07/11/2021",
     text: [
@@ -29,6 +32,7 @@ export let ARTICLES = [
   {
     id: 4,
     title: "The Church is the 'Universal Sacrament of Salvation'",
+    route: "universal-sacrament-of-salvation",
     author: "Matt Sebastian",
     date: "07/11/2021",
     text: [
@@ -36,9 +40,10 @@ export let ARTICLES = [
       "This leads us to an important realization that our temporal lives on earth are really meant to work out our salvation through His Church with the help of His Holy Spirit. Just as important as this is for us, this then is also true for the salvation of all mankind, whether they realize it or not. To this end, Jesus has started His restoration plan for the salvation of all mankind, by sending down His Holy Spirit on all the world - Jews and Gentiles alike, so everyone be drawn to Christ and His Church and be nourished by His Body and Blood. Cf. CCC 737: “The Spirit prepares men and goes out to them with his grace, in order to draw them to Christ.” The Holy Spirit also inspires His Church (i.e. us) to work for the common good of restoration of His Church, by gifting us with charisms for evangelization and drawing people into Christ’s plan of salvation. Cf. CCC 738: “Thus the Church's mission is not an addition to that of Christ and the Holy Spirit, but is its sacrament: in her whole being and in all her members, the Church is sent to announce, bear witness, make present, and spread the mystery of the communion of the Holy Trinity.”. In summary, the core mission of the Church is to bear witness to Christ universally, to all the corners of the world, and proclaim the Gospel and Jesus’ plan for salvation of all mankind."
     ]
   },
-  {   
+  {
     id: 5,
     title: "The Charisms of the Holy Spirit and Evangelization",
+    route: "charisms-of-holy-spirit",
     author: "Matt Sebastian",
     date: "07/11/2021",
     text: [
@@ -46,14 +51,15 @@ export let ARTICLES = [
       "<li> Allowing the Holy Spirit to speak powerfully to our hearts and grow us toward intentional discipleship. </li <li> Deepening our prayer lives and dependence on the Holy Spirit in all aspects of our lives.</li> <li> Filling our hearts with zeal to bring others to Christ by spreading the Gospel.</li>"
     ]
   },
-  {   
+  {
     id: 5,
-    title: "Relating to an Agnostic", 
+    title: "Relating to an Agnostic",
+    route: "relating-to-agnostic",
     author: "Matt Sebastian",
     date: "07/11/2021",
     text: [
       "The person I recall when I think about someone who is not necessarily Christian, but has good moral values, is a young man who was my next door neighbor for many years. Although not Christian, but belonging to another faith, and even being agnostic to that faith for most part, he displayed rare prudence, courage,temperance and justice, exuding all the cardinal virtues. He really surprised me in that he had this innate goodness about him, despite being agnostic and living with no set tenets of structured faith to guide him. After having known him for a while, I brought up the subject of Christianity and Jesus, and told him my reason for faith. Although he never challenged my faith, and was receptive to most things that I said, he was not particularly inclined to go about a set religion. It looked like he was against organized religion but supported the concepts of Christianity by and large. During conversations, I could relate some of his values with Christian moral truths and was further able to engage in dialogue about the core theological virtues of faith, hope and love. At the end of the day we would always agree on certain areas and choose to agree even on the things we disagreed on. I saw a lot of nobility in his values and came to respect him for who he was. I continue to pray for him to come to know our Lord, because I know that faith is a God-given gift to man as much as it is man's response to that gift of God's revelation."
-    ] 
+    ]
   }
 ];
 
