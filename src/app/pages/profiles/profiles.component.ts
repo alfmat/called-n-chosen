@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Profile } from './Profile';
-import { PROFILES } from './profile-db';
 
 @Component({
   selector: 'app-profiles',
@@ -9,7 +7,6 @@ import { PROFILES } from './profile-db';
 })
 export class ProfilesComponent implements OnInit {
 
-  profiles: Profile[] = PROFILES;
   constructor() { }
 
   ngOnInit(): void {

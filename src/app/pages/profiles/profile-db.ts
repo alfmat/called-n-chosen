@@ -2,6 +2,7 @@ export let PROFILES = [
   {
     name: "Matt Sebastian",
     title: "Founder & Chairman",
+    user: "matt-sebastian",
     image_url: "assets/img/team/sebastian_matt.jfif",
     desc: [
       "Matt Sebastian is the Founder and President of Called and Chosen – a Catholic non-profit organization focused on Evangelization. He spent 20+ years in the Washington DC Metro area, where he was involved in Evangelization Ministries and Faith Groups in various capacities within Catholic Churches in the Arlington Diocese in VA. In 2016, he moved to the Raleigh RTP region to take up a corporate role of a Director of a Solutions Business Unit for a large Software organization. He simultaneously got active in the local Parish Retreat Ministry and Prayer Groups in the Chapel Hill area. He holds a MBA (International Business and Finance) from Georgetown University, DC and a Bachelor’s degree in Engineering (Electronics and Telecommunications).",
@@ -12,6 +13,7 @@ export let PROFILES = [
   {
     name: "Joe Zannini",
     title: "Vice President, Evangelization",
+    user: "joe-zannini",
     image_url: "assets/img/team/joe_zannini_1.jpg",
     desc: [
       "Joe Zannini earned his Bachelor’s and Master’s Degree from the University of Rhode Island and his PhD from the University of Nebraska. He served as Assistant Dean of Students at the University of Nebraska - Lincoln, Associate Vice Provost for Resident Life at the University of Cincinnati, and Executive Director of Housing Services, and Associate to the Vice Chancellor for Student Affairs at the University of Massachusetts - Amherst. In the role of chief disciplinarian at each of these schools, Joe felt the need to assist students in taking responsibility for their behavior and assisting students with the development of positive life skills. From the core of these programs, Joe developed supervisory skills that he transmitted to his managers and to numerous national audiences.",
@@ -22,6 +24,7 @@ export let PROFILES = [
   {
     name: "Bryon Herbel",
     title: "Vice President, Apologetics",
+    user: "bryon-herbel",
     image_url: "assets/img/team/bryon_new_pic_1.jpg",
     desc: [
       "Bryon Herbel is a Midwesterner who completed his psychiatry residency in Kansas in 1990, after which he moved to North Carolina to enroll in a two-year fellowship in child and adolescent psychiatry at Duke University Medical Center. Intrigued by the interface between psychiatry and the criminal justice system, he began working as a correctional and forensic psychiatrist at the Federal Medical Center in Butner, North Carolina. After a 25-year career with the Federal Bureau of Prisons, he retired in 2017 and subsequently relocated to North Dakota in order to be near family members.",
@@ -32,6 +35,7 @@ export let PROFILES = [
   {
     name: "Terrie Baldwin",
     title: "Coordinator, Evangelization Support - DOR",
+    user: "terrie-baldwin",
     image_url: "assets/img/team/terrie_baldwin_2.jpg",
     desc: [
       "Terrie Baldwin was raised in a Catholic family in northeastern Ohio and can recall evangelizing since the age of 10. Sharing faith stories is one thing she truly enjoys.",
@@ -45,6 +49,7 @@ export let PROFILES = [
   {
     name: "Rev. Fr. Martin Paul V.C.",
     title: "Spiritual Advisor",
+    user: "fr-martin",
     image_url: "assets/img/team/fr_martin.jpg",
     desc: [
       "Rev. Fr. Martin Paul Kalamparambil V.C. was born in a devout Catholic family. He was born near Malayatoor in the Southern Indian state of Kerala, where St. Thomas, an Apostle of Jesus had landed in India in 52 A.D. and founded the first Catholic Church there, known as St. Thomas Catholic Church, Malayatoor. Having studied in a Catholic School in this place that imbibes over 2000+ years of traditional Catholicism originating from this Apostolic Church, he had a pious upbringing and an early calling to vocation. Fr. Martin went on to complete his studies in Philosophy, Theology and Spirituality over a course of 12 years in the Pontifical Seminary in Aluva, Kerala.",
@@ -56,6 +61,7 @@ export let PROFILES = [
   {
     name: "Alfred Mathew",
     title: "Director, Technology & IT Strategy",
+    user: "alfred-mathew",
     image_url: "assets/img/team/alfred_profile.jfif",
     desc: [
       "Alfred Mathew is born and raised Catholic, and is active in Catholic circles as a young adult leader. His interest in evangelization is what drew him to join the Called and Chosen non-profit. He oversees IT Strategy, Design, Development and Maintenance for the Called and Chosen website and hopes that it will serve as a powerful tool in sharing the message of Christ to all.",
@@ -66,6 +72,7 @@ export let PROFILES = [
   {
     name: "Pam McCausland",
     title: "Intercessory Prayer Leader",
+    user: "pam-mccausland",
     image_url: "assets/img/team/pam-new_1.jpg",
     desc: [
       "Pam grew up in South Carolina. She received her BA in elementary education from Limestone College now Limestone University in Gaffney SC. She taught for 30 years K-4 in VA. She was named teacher of the year 3 times in her teaching career from Bennett Elementary. She served on many curriculum committees in Prince William County including gifted, Social Studies and Language Arts. She also mentored student teachers and won Grants for her elementary school. When she and her husband moved to Richmond, VA she was chosen to serve as a member of the Clinical Faculty program at VCU and continued to mentor student teachers for Chesterfield County until her retirement in 2010. She has remained active in education and volunteers as lead teacher for 4th grade at The Learning Trails, a non- profit organization for Hispanic students in Chapel Hill, NC.",
@@ -76,6 +83,7 @@ export let PROFILES = [
   {
     name: "Beth Lutz",
     title: "Marketing & PR Manager",
+    user: "beth-lutz",
     image_url: "assets/img/team/beth_lutz.jpg",
     desc: [
       "Beth Lutz was raised in a Catholic family in Southborough, Massachusetts and went to church on Sundays and holy days like most “good Catholics” but had no idea what it meant to have a personal relationship with God. She felt a bit resentful that she had been raised with good moral values in a world that didn’t appreciate them. After leaving for college, she was drawn to the secular culture and stopped going to church.",

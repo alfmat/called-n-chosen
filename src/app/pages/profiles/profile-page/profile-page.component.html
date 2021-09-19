@@ -1,0 +1,13 @@
+<div style="padding-top: 7rem;" class="container">
+    <div class="row">
+        <div class="col-sm" style="align-items: center;">
+          <img class="mx-auto rounded-circle" src={{profiles[user].image_url}} alt="..." style="max-width: 80%; max-height: 80%;" />
+        </div>
+        <div class="col-lg-9" style="align-items: flex-start;">
+          <h1>{{profiles[user].name}}</h1>
+          <p class="text-muted">{{profiles[user].title}}</p>
+          <p *ngFor="let para of profiles[user].desc">{{para}}</p>
+        </div>
+    </div>
+</div>
+

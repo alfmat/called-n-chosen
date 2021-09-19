@@ -13,6 +13,9 @@ import { ArticlesComponent } from './pages/articles/articles.component';
 import { ArticleBoxComponent } from './pages/articles/article-box/article-box.component';
 import { ProfilesComponent } from './pages/profiles/profiles.component';
 import { IndivProfileComponent } from './pages/profiles/indiv-profile/indiv-profile.component';
+import { ProfilePageComponent } from './pages/profiles/profile-page/profile-page.component';
+import { AllProfilesComponent } from './pages/profiles/all-profiles/all-profiles.component';
+import { NotFoundComponent } from './pages/not-found/not-found.component';
 
 const routes: Routes = [
   {path: '', pathMatch: 'full', redirectTo: '/home'},
@@ -21,7 +24,62 @@ const routes: Routes = [
   {path: 'articles', component: ArticlesComponent },
   {path: 'resources', component: ResourcesComponent },
   {path: 'contact', component: ContactComponent },
-  {path: 'profiles', component: ProfilesComponent }
+  {
+    path: 'profiles',
+    component: ProfilesComponent,
+    children: [
+      {
+        path: '',
+        redirectTo: 'all',
+        pathMatch: 'full'
+      },
+      {
+        path: 'all',
+        component: AllProfilesComponent
+      },
+      {
+        path: 'matt-sebastian',
+        component: ProfilePageComponent,
+        data:{id: 0}
+      },
+      {
+        path: 'joe-zannini',
+        component: ProfilePageComponent,
+        data:{id: 1}
+      },
+      {
+        path: 'bryon-herbel',
+        component: ProfilePageComponent,
+        data:{id: 2}
+      },
+      {
+        path: 'terrie-baldwin',
+        component: ProfilePageComponent,
+        data:{id: 3}
+      },
+      {
+        path: 'fr-martin',
+        component: ProfilePageComponent,
+        data:{id: 4}
+      },
+      {
+        path: 'alfred-mathew',
+        component: ProfilePageComponent,
+        data:{id: 5}
+      },
+      {
+        path: 'pam-mccausland',
+        component: ProfilePageComponent,
+        data:{id: 6}
+      },
+      {
+        path: 'beth-lutz',
+        component: ProfilePageComponent,
+        data:{id: 7}
+      }
+    ]
+  },
+  { path: "**", component: NotFoundComponent }
 ]
 
 @NgModule({
@@ -37,6 +95,9 @@ const routes: Routes = [
     ArticleBoxComponent,
     ProfilesComponent,
     IndivProfileComponent,
+    ProfilePageComponent,
+    AllProfilesComponent,
+    NotFoundComponent,
   ],
   imports: [
     BrowserModule,
