@@ -52,7 +52,7 @@ export let PROFILES = [
     user: "fr-martin",
     image_url: "assets/img/team/fr_martin.jpg",
     desc: [
-      "Rev. Fr. Martin Paul Kalamparambil V.C. was born in a devout Catholic family. He was born near Malayatoor in the Southern Indian state of Kerala, where St. Thomas, an Apostle of Jesus had landed in India in 52 A.D. and founded the first Catholic Church there, known as St. Thomas Catholic Church, Malayatoor. Having studied in a Catholic School in this place that imbibes over 2000+ years of traditional Catholicism originating from this Apostolic Church, he had a pious upbringing and an early calling to vocation. Fr. Martin went on to complete his studies in Philosophy, Theology and Spirituality over a course of 12 years in the Pontifical Seminary in Aluva, Kerala.",
+      "Rev. Fr. Martin Paul Kalamparambil V.C. was born in a devout Catholic family. He was born near Malayatoor in the Southern Indian state of Kerala, where St. Thomas, an Apostle of Jesus had landed in India in 52 A.D. and founded the first Catholic Church there, known as St. Thomas Catholic Church, Malayatoor. Having studied in a Catholic School in this place that imbibes about 2000 years of traditional Catholicism originating from this Apostolic Church, he had a pious upbringing and an early calling to vocation. Fr. Martin went on to complete his studies in Philosophy, Theology and Spirituality over a course of 12 years in the Pontifical Seminary in Aluva, Kerala.",
       "After Fr. Martin was ordained a Catholic Priest, he trained Catholic Seminarians in their novitiate formation for 5 years. He was then appointed as Director of Evangelization of the Vincentian Evangelization Ministry in major cities of India like Mumbai, Delhi, Vijayawada and Visakhapatnam, where he led several areas of ministry such as preaching, deliverance and healing. Fr. Martin was then assigned as the Associate Director for the Divine Healing Center, Vincentian Ministry in Washington, NJ where he led Healing Retreats and Evangelization initiatives from 2006 to 2011. He has preached the Word of God and conducted healing ministries in the Asia-Pac region (Singapore, India), Europe (France, Germany, England and Ireland), the Middle-East (Dubai) and North America (USA and Canada).",
       "Fr. Martin is currently Superior and Director of a Divine Retreat Center in Nagpur, India. He has been an inspirational guiding force, and spiritual advisor for the starting of the Called and Chosen Evangelization Ministry within the Diocese of Raleigh. Fr. Martin constantly prays for our ministry and reminds us that evangelization is for everyone and it is our mission as Catholics to spread the good news to people from all walks of life, without being discriminatory or judgmental. He reminds us from the Bible, that ‘Jesus himself sent out through his disciples, from east to west, the sacred and imperishable proclamation of eternal salvation.’",
       "Fr. Martin also has a heart for lay evangelists and ministers and strives to train lay missionaries, nuns and younger priests in the areas of preaching and evangelization. He is the founder of two major new evangelization magazines named ‘Divine Truth’ and ‘Tabor Voice’ and frequently authors articles on various evangelization topics."
@@ -82,7 +82,7 @@ export let PROFILES = [
   },
   {
     name: "Beth Lutz",
-    title: "Marketing & PR Manager",
+    title: "Manager, Promotions and Marketing",
     user: "beth-lutz",
     image_url: "assets/img/team/beth_lutz.jpg",
     desc: [
