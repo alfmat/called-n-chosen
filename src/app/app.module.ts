@@ -22,6 +22,7 @@ import { ARTICLES } from './pages/articles/article-text';
 import { Article } from './pages/articles/Article';
 import { AllArticlesComponent } from './pages/articles/all-articles/all-articles.component';
 import { IndivArticleComponent } from './pages/articles/indiv-article/indiv-article.component';
+import { WorkshopsComponent } from './pages/workshops/workshops.component';
 
 const profiles: Profile[] = PROFILES;
 const articles: Article[] = ARTICLES;
@@ -77,6 +78,7 @@ const routes: Routes = [
   },
   {path: 'resources', component: ResourcesComponent },
   {path: 'contact', component: ContactComponent },
+  {path: 'workshops', component: WorkshopsComponent },
   {
     path: 'profiles',
     component: ProfilesComponent,
@@ -153,6 +155,7 @@ const routes: Routes = [
     NotFoundComponent,
     AllArticlesComponent,
     IndivArticleComponent,
+    WorkshopsComponent,
   ],
   imports: [
     BrowserModule,
