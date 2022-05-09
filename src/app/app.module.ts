@@ -159,7 +159,7 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})
+    RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled', useHash: true})
   ],
   providers: [],
   bootstrap: [AppComponent]
