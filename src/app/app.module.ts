@@ -126,11 +126,6 @@ const routes: Routes = [
         path: profiles[6].user,
         component: ProfilePageComponent,
         data:{id: 6}
-      },
-      {
-        path: profiles[7].user,
-        component: ProfilePageComponent,
-        data:{id: 7}
       }
     ]
   },
