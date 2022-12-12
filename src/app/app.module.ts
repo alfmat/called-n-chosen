@@ -23,14 +23,12 @@ import { Article } from './pages/articles/Article';
 import { AllArticlesComponent } from './pages/articles/all-articles/all-articles.component';
 import { IndivArticleComponent } from './pages/articles/indiv-article/indiv-article.component';
 import { WorkshopsComponent } from './pages/workshops/workshops.component';
-import { MaintenanceComponent } from './pages/maintenance/maintenance.component';
 
 const profiles: Profile[] = PROFILES;
 const articles: Article[] = ARTICLES;
 
 const routes: Routes = [
-  {path: '', pathMatch: 'full', redirectTo: '/maintenance'},
-  {path: 'maintenance', component: MaintenanceComponent},
+  {path: '', pathMatch: 'full', redirectTo: '/home'},
   {path: 'home', component: HomeComponent },
   {path: 'about', component: AboutComponent },
   {
@@ -153,7 +151,6 @@ const routes: Routes = [
     AllArticlesComponent,
     IndivArticleComponent,
     WorkshopsComponent,
-    MaintenanceComponent,
   ],
   imports: [
     BrowserModule,
